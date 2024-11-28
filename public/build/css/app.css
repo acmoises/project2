@@ -1,0 +1,250 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f4f4f4;
+}
+
+.btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.btn-edit {
+  background-color: #413d8e;
+  color: white;
+}
+
+.btn-edit:hover {
+  background-color: #292658;
+}
+
+.btn-delete {
+  background-color: #f44336;
+  color: white;
+}
+
+.btn-delete:hover {
+  background-color: #e41f14;
+}
+
+.btn-add {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.btn-add:hover {
+  background-color: #45a049;
+}
+
+td {
+  text-align: center;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.actions a {
+  text-decoration: none;
+}
+
+.title {
+  text-align: left;
+}
+
+.title div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  position: relative;
+}
+
+nav ul li a {
+  display: block;
+  padding: 14px 20px;
+  text-decoration: none;
+  color: white;
+  background-color: #333;
+}
+
+nav ul li a:hover {
+  background-color: #575757;
+}
+
+nav ul ul {
+  display: none;
+}
+
+nav ul ul li a {
+  padding: 10px 20px;
+  color: white;
+}
+
+nav ul ul li a:hover {
+  background-color: #575757;
+}
+
+nav ul li:hover > ul {
+  display: block;
+}
+
+.form {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-container {
+  background: #fff;
+  padding: 20px 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+}
+
+.form-container h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+input:focus, select:focus, textarea:focus {
+  border-color: #007BFF;
+  outline: none;
+  box-shadow: 0 0 4px rgba(0, 123, 255, 0.3);
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #007BFF;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  color: white;
+}
+
+.btn-secondary:hover {
+  background-color: #5a6268;
+}
+
+.btn-cancel {
+  text-decoration: none;
+  color: #555;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.btn-cancel:hover {
+  text-decoration: underline;
+}
+
+.description {
+  margin: 20px auto;
+  font-size: 16px;
+  text-align: center;
+}
+.description p {
+  color: #333;
+}
+
+.alerta {
+  padding: 1.25rem;
+  color: #FFFFFF;
+  width: 50%;
+  display: block;
+  margin: 0 auto 2rem auto;
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.alerta.error {
+  background-color: darkred;
+}
+.alerta.exito {
+  background-color: forestgreen;
+}/*# sourceMappingURL=app.css.map */

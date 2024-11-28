@@ -1,0 +1,22 @@
+{
+    "name": "moises/project2",
+    "description": "technical test",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers",
+            "Model\\" : "./models",
+            "Interface\\" : "./interface"
+        }
+    },
+    "authors": [
+        {
+            "name": "acmoises",
+            "email": "acm.developer.19@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    }
+}

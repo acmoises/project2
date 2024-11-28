@@ -1,0 +1,1 @@
+function showDescription(n){document.getElementById("menu-description").innerHTML=`<p>${n}</p>`}
