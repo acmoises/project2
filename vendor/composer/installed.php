@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'moises/project2',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => null,
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '61f230678d94d83ce22745214de1d06ff8e4e847',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -20,9 +20,9 @@
             'dev_requirement' => false,
         ),
         'moises/project2' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => null,
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '61f230678d94d83ce22745214de1d06ff8e4e847',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
